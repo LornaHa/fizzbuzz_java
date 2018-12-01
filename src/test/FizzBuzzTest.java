@@ -5,13 +5,15 @@ import static org.assertj.core.api.Assertions.*;
 public class FizzBuzzTest {
 
     @Test
-    public void printsAllOtherNumbers(){
+    public void printsAllOtherNumbers() {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertThat(fizzBuzz.convert(1)).isEqualTo("1");
     }
 
-//    @Test
-//    public void
-
+    @Test
+    public void printFizzBuzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertThat(fizzBuzz.convert(15)).isEqualTo("FizzBuzz");
+    }
 }

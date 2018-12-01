@@ -1,14 +1,10 @@
 public class FizzBuzz {
 
-//  public static void main(String[] args){
-//
-//  }
-
-
-
-  public String convert(int number) {
-      return String.valueOf(number);
+  public String convert(int num) {
+    String fizzBuzz = "FizzBuzz";
+    if (num % 15 == 0) {
+      return fizzBuzz;
+    } else
+    return String.valueOf(num);
   }
-
-
 }
