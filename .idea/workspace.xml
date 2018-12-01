@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c7a0208-9182-465d-987c-8b48e6e93021" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/FizzBuzz.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/FizzBuzzTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/FizzBuzz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -40,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -60,8 +57,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/src/test/FizzBuzzTest.java" />
       </list>
     </option>
   </component>
@@ -125,7 +122,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543682387427" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543682596428" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
@@ -140,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.printFizzBuzz">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.printFizzOnly">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="fizzbuzz_java" />
@@ -166,6 +163,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTest.printFizzOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fizzbuzz_java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="printFizzOnly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FizzBuzzTest.printsAllOtherNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fizzbuzz_java" />
       <option name="PACKAGE_NAME" value="" />
@@ -178,6 +185,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest.printFizzOnly" />
         <item itemvalue="JUnit.FizzBuzzTest.printFizzBuzz" />
         <item itemvalue="JUnit.FizzBuzzTest.printsAllOtherNumbers" />
         <item itemvalue="JUnit.FizzBuzzTest" />
@@ -214,6 +222,9 @@
     <history-entry file="FizzBuzzTest_printsAllOtherNumbers - 2018.12.01 at 16h 02m 16s.xml">
       <configuration name="FizzBuzzTest.printsAllOtherNumbers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest_printFizzBuzz - 2018.12.01 at 16h 40m 02s.xml">
+      <configuration name="FizzBuzzTest.printFizzBuzz" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -227,9 +238,9 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105006106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.33367348" />
+      <window_info anchor="bottom" id="Messages" weight="0.33367348" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
@@ -293,20 +304,20 @@
     <entry file="file://$PROJECT_DIR$/src/fizzbuzz_java.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/FizzBuzzTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/FizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/src/test/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="330">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

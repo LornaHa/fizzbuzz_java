@@ -16,4 +16,10 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertThat(fizzBuzz.convert(15)).isEqualTo("FizzBuzz");
     }
+
+    @Test
+    public void printFizzOnly() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertThat(fizzBuzz.convert(3)).isEqualTo("Fizz");
+    }
 }
