@@ -22,4 +22,10 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertThat(fizzBuzz.convert(3)).isEqualTo("Fizz");
     }
+
+    @Test
+    public void printBuzzOnly() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertThat(fizzBuzz.convert(5)).isEqualTo("Buzz");
+    }
 }
