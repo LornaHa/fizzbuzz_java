@@ -1,19 +1,17 @@
-package com.tdd;
-
-import static org.junit.Assert.*;
-import org.junit.Assert;
 import org.junit.Test;
 
+import static org.assertj.core.api.Assertions.*;
 
 public class FizzBuzzTest {
 
-@Test
-public void printsAllOtherNumbers(){
+    @Test
+    public void printsAllOtherNumbers(){
 
-    FizzBuzz fizzBuzz = new FizzBuzz();
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertThat(fizzBuzz.convert(1)).isEqualTo("1");
+    }
 
-    Assert.assertEquals("1", fizzBuzz.convert(1));
-    Assert.assertEquals("2", fizzBuzz.covert(2));
-}
+//    @Test
+//    public void
 
 }
